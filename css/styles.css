@@ -7,6 +7,7 @@
 }
   
 body {
+    margin: 0;
     background-color: var(--primary-white-color);
     font-family: roboto, sans-serif;
 }
@@ -14,15 +15,23 @@ body {
 ul {
     list-style-type: none;
 }
+/* Шапка сайта */
 
 .page-header {
     outline: 1px solid teal;
     min-height: 80px;
 }
 
+.container {
+    width: 1200px;
+    /*margin: 0;
+    padding: 0;*/
+}
+
 .site-nav {
     display:flex;
 }
+
 .site-nav-list {
     display: flex;
     margin: 0;
@@ -30,15 +39,41 @@ ul {
 }
 
 .site-nav-list .link {
+    display: block;
     background-color: tomato;
     margin-right: 50px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .site-nav-list .link:last-child {
     margin-right: o;
 }
 
+.contact-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-item {
+    display: inline-block;
+    background-color: tomato;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-left: auto;
+}
+
+.site-nav >.logo {
+    display: flex;
+}
+
 .logo {
+    margin-top: 24px;
+    margin-bottom: 25px;
+    margin-right: 93px;
+    margin-left: 15;
+
     color: var(--primary-text-color);
     font-family: raleway, sans serif;
     font-style: normal;
@@ -58,6 +93,12 @@ ul {
 }
 
 .main-title {
+    margin-top: 200px;
+    margin-bottom: 40px;
+    margin-left: 252px;
+    margin-right: 252px;
+    
+    background-color: #000;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -67,6 +108,15 @@ ul {
 }
 
 .link-registration {
+    display: inline-block;
+    min-width: 200px;
+    position: absolute;
+    padding-top: 10 32px;
+    ppadd
+    margin-bottom: 200px;
+    margin-left: 700px;
+    margin-right: 700px;
+
     font-weight: bold;
     font-size: 16px;
     line-height: 1.88;

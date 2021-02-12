@@ -251,9 +251,9 @@ ul {
 }
 
 .primary-button .secondary-button {
+    margin-top: 100px;
     margin-right: 30px;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding: 6 22px;
 }
 
 .site-nav-list .link:last-child {

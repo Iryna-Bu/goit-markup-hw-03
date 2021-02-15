@@ -7,8 +7,8 @@
 }
   
 body {
-    margin: 0;
-    padding: 0;
+    /*margin: 0;
+    padding: 0;*/
     background-color: var(--primary-white-color);
     font-family: roboto, sans-serif;
 }
@@ -27,7 +27,7 @@ ul {
 
 .container {
     width: 1200px;
-    padding-left: 15px:
+    padding-left: 15px;
     padding-right: 15px;
     margin: 0;
     /*background-color: teal;*/
@@ -287,7 +287,7 @@ ul {
     width: 370px;
     margin-right: 30px;
     margin-bottom: 30px;
-    /*width: calc((100%-60px) / 3);
+    /*flex-basis: calc((100%-60px) / 3);
     margin-right: 30px;*/
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
@@ -380,7 +380,7 @@ ul {
     background-color: #2f303a;
 }
 
-.footer-logo {
+.footer-logo > .logo {
    margin-top: 60px;
    margin-bottom: 20px;
    margin-left: 15px;

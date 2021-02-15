@@ -370,16 +370,18 @@ ul {
     background-color: #2f303a;
 }
 
-.footer-logo > .logo {
-   margin-top: 60px;
-   margin-bottom: 20px;
-   margin-left: 15px;
-   color: var(--primary-white-color:#FFFFFF);
+.footer-logo {
+   padding-top: 60px;
+   padding-bottom: 20px; 
+}
+
+.logo-white {
+    color: var(--primary-white-color);
 }
 
 .address {
-    margin-bottom: 9px;
-    margin-left: 15px;
+    padding-bottom: 9px;
+    padding-left: 15px;
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -401,9 +403,9 @@ ul {
 }
 
 .item-contact {
-    margin-top: 9px;
-    margin-bottom: 9px;
-    margin-left: 15px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 15px;
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;

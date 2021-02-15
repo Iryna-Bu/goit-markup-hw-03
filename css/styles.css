@@ -32,7 +32,7 @@ ul {
     padding-left: 15px;
     padding-right: 15px;
     margin: auto;
-    /*background-color: tomato;*/
+    background-color: tomato;
 }
 
 .header-container {
@@ -75,8 +75,7 @@ ul {
 
 .contact-item {
     display: flex;
-    /*
-    background-color: tomato;*/
+    /*background-color: tomato;*/
     padding-top: 32px;
     padding-bottom: 32px;
     margin-left: 50px;
@@ -94,6 +93,7 @@ ul {
     margin-top: 24px;
     margin-bottom: 25px;
     margin-right: 93px;
+    margin-left: 15px;
     
     /*background-color: tomato;*/
     color: var(--primary-text-color);

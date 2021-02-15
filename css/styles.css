@@ -289,11 +289,15 @@ ul {
     margin-bottom: 0;*/
 }
 
-.project-title {
+.project-description {
+    
     padding-top: 20px;
     padding-bottom: 4px;
     padding-left: 24px;
     padding-right: 24px;
+}
+
+.project-title {
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
@@ -302,6 +306,7 @@ ul {
 }
 
 .project-text {
+    width: 370px;
     padding-bottom: 4px;
     padding-left: 24px;
     padding-right: 24px;

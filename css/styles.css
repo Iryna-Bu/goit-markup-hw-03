@@ -289,15 +289,11 @@ ul {
     margin-bottom: 0;*/
 }
 
-.project-description {
-    
-    padding-top: 20px;
-    padding-bottom: 4px;
-    padding-left: 24px;
-    padding-right: 24px;
-}
-
 .project-title {
+    margin-top: 20px;
+    margin-bottom: 4px;
+    margin-left: 24px;
+    margin-right: 24px;
     font-weight: bold;
     font-size: 18px;
     line-height: 2;

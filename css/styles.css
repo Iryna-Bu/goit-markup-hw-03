@@ -150,6 +150,7 @@ ul {
     color: var(--primary-white-color);
     text-decoration: none;
 }
+
 /* ОСОБЕННОСТИ */
 
 .feature-list {
@@ -167,9 +168,8 @@ ul {
     margin-right: 0;
 }
 
-
 .item-title {
-   /* width: 270px;*/
+    width: 270px;
     padding-bottom: 10px;
     font-weight: bold;
     font-size: 14px;
@@ -182,13 +182,12 @@ ul {
 }
 
 .text {
-    /*width: 270px;*/
+    width: 270px;
     padding-bottom: 94px;
-    /*margin-right: 30px;*/
+    padding-right: 30px;
     font-size: 14px;
     line-height: 1.71;
     color:; var(--secondary-text-color);
-    backgroun d-color: rgb(85, 31, 22);*/
 }
 .text:last-child {
     margin-right: 0;

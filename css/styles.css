@@ -156,7 +156,6 @@ ul {
 .feature-list {
     display: flex;
     /*flex-wrap: wrap;*/ 
-    /*background-color: tomato;*/
 }
 
 .feature-list > .item {

@@ -15,8 +15,8 @@ body {
 
 ul {
     list-style-type: none;
-    /*margin: 0;
-    padding: 0;*/
+    margin: 0;
+    padding: 0;
 }
 /* Шапка сайта */
 .header {
@@ -29,7 +29,7 @@ ul {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0;
+    margin: auto;
     /*background-color: teal;*/
 }
 
@@ -376,6 +376,7 @@ ul {
 /*-- Футер --*/
 
 .footer > .container {
+    width: 1200px;
     height: 252px;
     background-color: #2f303a;
 }

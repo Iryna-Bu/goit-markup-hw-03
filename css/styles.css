@@ -22,7 +22,7 @@ ul {
 /* Шапка сайта */
 .header {
     width: 1200px;
-    min-height: 80px;
+    height: 80px;
     margin-bottom: 0;
     border-bottom: 1 px solid rgba(236, 236, 236, 1);
     /*background-color: teal;*/
@@ -211,7 +211,6 @@ ul {
     display:flex;
     justify-content: center;
     margin-right: 30px;
-    margin-left:auto
    /* background-color: tomato;*/
 }
 
@@ -291,10 +290,10 @@ ul {
 }
 
 .project-title {
-    margin-top: 20px;
-    margin-bottom: 4px;
-    margin-left: 24px;
-    margin-right: 24px;
+    padding-top: 20px;
+    padding-bottom: 4px;
+    padding-left: 24px;
+    padding-right: 24px;
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
@@ -332,6 +331,7 @@ ul {
 .primary-button {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
+    decoration: none;
 }
 
 .primary-button:hover,

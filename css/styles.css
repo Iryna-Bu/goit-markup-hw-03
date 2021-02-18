@@ -39,7 +39,7 @@ ul {
 .header-container {
     display: flex;
     width: 1200px;
-    padding-left: 15px:
+    padding-left: 15px;
     padding-right: 15px;
     /*margin-left: auto;
     margin-right: auto;*/
@@ -118,6 +118,7 @@ ul {
 /*  HERO  */
 
 .hero {
+    max-width: 1600px;
     background-color: #c3c3c3;
     text-align: center;
 }

@@ -119,7 +119,6 @@ ul {
 
 .hero {
     max-width: 1600px;
-    background-image: linear-gradient(to right, var(--gradient-color), var(--gradient-color)), url(../images/bg_hero.jpg);
     background-color: #c3c3c3;
     text-align: center;
 }

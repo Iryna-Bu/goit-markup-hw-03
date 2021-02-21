@@ -24,7 +24,7 @@ ul {
     width: 100%;
     height: 80px;
     margin-bottom: 0;
-    border-bottom: 1 px solid rgba(236, 236, 236, 1);
+    border-bottom: 1px solid rgba(236, 236, 236, 1);
     /*background-color: teal;*/
 }
 
@@ -309,7 +309,6 @@ ul {
 
 .buttons-list {
     display: flex;
-    /*background-color: teal;*/
     justify-content: center;
 }
 
@@ -317,7 +316,6 @@ ul {
     margin-top: 100px;
     margin-bottom: 50px;
     margin-right: 30px;
-    padding: 6 22px;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     border: none;
@@ -330,7 +328,7 @@ ul {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
     decoration: none;
-    padding: 6 22px;
+    padding: 6px 22px;
     border-radius: 4px;
     border: none;
 }
@@ -339,12 +337,13 @@ ul {
 .primary-button:focus {
     color: var(--accent-color);
     text-decoration: none;
+    outline: none;
 }
 
 .secondary-button {
-    padding: 6 22px;
+    padding: 6px 22px;
     border: none;
-    background: #F5F4FA;
+    background-color: #F5F4FA;
     border-radius: 4px;
     color: var(--primary-text-color);
 }
@@ -354,6 +353,7 @@ ul {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
     text-decoration: none;
+    outline: none;
 }
 
 .site-nav .link {

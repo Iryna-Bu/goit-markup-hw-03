@@ -52,10 +52,7 @@ p {
     align-items: center;
 }
 
-.site-nav
-/*.site-nav-list 
-.site-nav >.logo
-.site-nav-list .link*/  {
+.site-nav {
     display: flex;
 }
 
@@ -63,7 +60,17 @@ p {
     display: flex;
 }
 
-.site-nav-list .link {
+.link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color:var(--primary-text-color);
+    text-decoration: none;
+}
+
+.site-nav-list .nav-link {
     display: flex;
     /*background-color: tomato;*/
     margin-right: 50px;
@@ -133,6 +140,10 @@ p {
 }
 .hero {
     max-width: 1600px;
+    background-image: linear-gradient(to right, var(--gradient-color), var(--gradient-color)), url(../img/bg-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     background-color: #c3c3c3;
     text-align: center;
 }

@@ -129,6 +129,9 @@ p {
     align-items: center;
     justify-content: center;
     height: 600px;
+    
+}
+.hero {
     max-width: 1600px;
     background-image: linear-gradient(to right, var(--gradient-color), var(--gradient-color)), url(../img/bg-hero.jpg);
     background-repeat: no-repeat;
